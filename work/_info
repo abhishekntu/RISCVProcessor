@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dd:/modeltech64_10.5/examples
+valu
+Z0 !s110 1489851881
+!i10b 1
+!s100 Ja8`R=`YkC6WZZ4FTjDQE2
+I6[BPda7dbonc`NBZZ=I7i1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/RISCVProcessor
+w1489834897
+8D:/RISCVProcessor/alu.v
+FD:/RISCVProcessor/alu.v
+L0 3
+Z3 OL;L;10.5;63
+r1
+!s85 0
+31
+Z4 !s108 1489851881.000000
+!s107 define.v|D:/RISCVProcessor/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISCVProcessor/alu.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vinstruction_memory
+R0
+!i10b 1
+!s100 Xne_RX5K5?62ON9E8bCBl2
+Ie3B<@GF2aV9:ESj@MO=BH2
+R1
+R2
+w1489835364
+8D:/RISCVProcessor/memory.v
+FD:/RISCVProcessor/memory.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 define.v|D:/RISCVProcessor/memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISCVProcessor/memory.v|
+!i113 0
+R5
+R6
+vprogram_counter
+Z7 !s110 1489851883
+!i10b 1
+!s100 _BQ:i8eGlX7NGlS6n:;2?2
+Ig<bKNSBE07?C6Dk?TBoY=1
+R1
+R2
+w1489834744
+8D:/RISCVProcessor/program_counter.v
+FD:/RISCVProcessor/program_counter.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z8 !s108 1489851883.000000
+!s107 define.v|D:/RISCVProcessor/program_counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISCVProcessor/program_counter.v|
+!i113 0
+R5
+R6
+vregfile
+R7
+!i10b 1
+!s100 WiPiYG3Nj;YhlB[n95@[J1
+IB_>i5T8XLF2mbU647XQ9g1
+R1
+R2
+w1489835240
+8D:/RISCVProcessor/register_file.v
+FD:/RISCVProcessor/register_file.v
+L0 4
+R3
+r1
+!s85 0
+31
+R8
+!s107 define.v|D:/RISCVProcessor/register_file.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISCVProcessor/register_file.v|
+!i113 0
+R5
+R6
+vrvproc
+!s110 1489851884
+!i10b 1
+!s100 Y@?BkJ>LBV_Q4eB]Gm3>e0
+IQbj1f]A@]4=?BUF5W]0bb0
+R1
+R2
+w1489849381
+8D:/RISCVProcessor/rvproc.v
+FD:/RISCVProcessor/rvproc.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1489851884.000000
+!s107 define.v|D:/RISCVProcessor/rvproc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISCVProcessor/rvproc.v|
+!i113 0
+R5
+R6
+vtestbench_rvproc
+R0
+!i10b 1
+!s100 dk0ea]CZJzZA42Gd=2Xl:0
+IU]P:Z_jH0=kCQ8UkF4laW0
+R1
+R2
+w1489843768
+8D:/RISCVProcessor/testbench_rvproc.v
+FD:/RISCVProcessor/testbench_rvproc.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 define.v|D:/RISCVProcessor/testbench_rvproc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISCVProcessor/testbench_rvproc.v|
+!i113 0
+R5
+R6
