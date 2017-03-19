@@ -2,7 +2,7 @@
 
 module alu(
     clk,
-    rst,
+    rst, 
     instr_code,
     a,   //1st operand
     b,   //2nd operand
@@ -10,15 +10,13 @@ module alu(
     out,   //output
   	zero   //zer flag bit for branch 
     );
-
-    input clk;                          
-    input rst;
+    input clk, rst;
     input[3:0] instr_code;
     input [`DSIZE-1:0] a, b, imm;
     output reg [`DSIZE-1:0] out;
     output reg zero;
       
-    always @(posedge clk)
+    always @ * 
     begin
       case(instr_code)
         `ADD: out = a + b;

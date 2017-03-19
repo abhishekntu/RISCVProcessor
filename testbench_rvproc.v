@@ -21,13 +21,12 @@ module testbench_rvproc;
 	  begin
 	  // Initialize Inputs
 	  clk = 0;
-          rst = 0;
+          rst = 1;
 	  addr = 32'h0000_0000;
 	  // Wait 50 ns for global reset to finish
           #50;
 	  // Add stimulus here
-	  #15 rst = 1;
-	  #13 rst = 0;
+	  rst = 0;
 	  addr = 32'h0000_0000;
 	end
 	

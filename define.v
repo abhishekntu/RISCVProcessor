@@ -20,9 +20,10 @@
 `define BNE 4'h7
 
 `define EOF 32'hFFFF_FFFF
+`define ASIZE 8 //Address size
 `define NULL 0
 `define MAX_LINE_LENGTH 16384
 `define DSIZE 32 // datasize
-`define NREG 31//no of registers
 `define ISIZE 32 //instuction size
-`define ASIZE 8 //Address size
+`define NREG 31//no of registers
+
